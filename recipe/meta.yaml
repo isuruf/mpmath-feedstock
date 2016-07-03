@@ -18,6 +18,7 @@ requirements:
     - python
   run:
     - python
+    - gmpy2      # [(not win) or py35]
 
 test:
   imports:
